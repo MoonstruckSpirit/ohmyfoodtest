@@ -1,0 +1,6 @@
+.card {
+    border-radius: 20px;
+    background-color: $bg-alt; 
+    
+    @include drop-shadow;
+}
