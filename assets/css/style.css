@@ -123,7 +123,7 @@ p {
 }
 
 .function {
-  padding: 48px 80px 68px 20px;
+  padding: 48px 20px 68px 20px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -148,7 +148,8 @@ p {
   align-items: center;
   justify-content: center;
 }
-.function__card--icon {
+.function__card--icon, .function__card--icon--purple {
+  padding-left: 33.5px;
   color: #7E7E7E;
 }
 .function__card--icon--purple {
@@ -173,6 +174,8 @@ body {
   width: 100%;
   max-width: 1440px;
   min-width: 320px;
+  overflow: hidden; /* Hide scrollbars */
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=style.css.map */
