@@ -5,6 +5,10 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
+@mixin hover-drop-shadow {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
 @mixin h2-like {
     font-size: $font-size-text;
     font-weight: $font-weight-bold;

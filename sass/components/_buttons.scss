@@ -9,5 +9,6 @@
 
     &:hover {
         @include hover-gradient;
+        @include hover-drop-shadow;
     }
 }
