@@ -205,10 +205,27 @@ a, a:visited, a:hover, a:active {
   background-color: #F6F6F6;
 }
 .restaurants__card {
+  position: relative;
   width: 100%;
 }
+.restaurants__card:is(.card--isNew)::before {
+  content: "Nouveau";
+  position: absolute;
+  background-color: #99E2D0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  color: #008766;
+  padding: 7px 9px;
+  border-radius: 2px;
+  right: 15px;
+  top: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
 .restaurants__card--img {
-  object-fit: contain;
+  object-fit: cover;
+  height: 251px;
   border-radius: 15px 15px 0 0;
   width: 100%;
 }

@@ -92,10 +92,30 @@
     background-color: $bg-alt;
 
     &__card {
+        position: relative;
         width: 100%;
- 
+
+        &:is(.card--isNew) {
+            &::before {
+                content: "Nouveau";
+                position: absolute;
+                background-color: $tertiary-color;
+                @include h3-like;                
+                color: $quaternary-color;
+                padding: 7px 9px;
+                border-radius: 2px;
+
+                right: 15px; // Align to the right with 15px spacing
+                top: 15px; // Add spacing from the top
+
+                
+                @include drop-shadow;
+            }
+        }
+        
         &--img {
-            object-fit: contain;
+            object-fit: cover;
+            height: 251px;
             border-radius: 15px 15px 0 0;
             width: 100%;
         }
@@ -105,11 +125,11 @@
           display: flex;
           justify-content: space-between;
 
-          &--text {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-          }
+            &--text {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
         }
     }
 }
