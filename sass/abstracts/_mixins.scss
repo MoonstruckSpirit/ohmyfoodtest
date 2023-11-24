@@ -1,8 +1,14 @@
 @import "../abstracts/variables";
 
-
+@mixin animation-delay($delay) {
+    animation-delay: $delay;
+}
 @mixin drop-shadow {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+@mixin drop-shadow-dish {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.10);
 }
 
 @mixin hover-drop-shadow {

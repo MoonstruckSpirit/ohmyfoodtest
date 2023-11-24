@@ -1,13 +1,17 @@
 .header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
 
     &__logo {
-        margin: 14px 89px;
-        padding: 0 19px 0 16px;
+        padding: 14px 19px 14px 16px;
+        
     }
 
     &__secondary {
@@ -30,9 +34,12 @@
 
         &--location-dot {
             color: $primary-icon-color;
-        }
+        }        
+    }
 
-
+    &__withArrow {
+        position: absolute;
+        left: 10;
         
     }
 

@@ -2,11 +2,16 @@
     border-radius: 20px;
     background-color: $bg-alt; 
     
-    
     @include drop-shadow;
 
     &--isWhite {
         @extend .card;
         background-color: white;
+    }
+
+    &--isDish {
+        @extend .card;
+        border-radius: 15px;
+        @include drop-shadow-dish
     }
 }

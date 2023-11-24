@@ -1,8 +1,99 @@
-.wip {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hero {
+    &__img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
 
-    width: 100%;
-    height: 100%;
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 17px;
+    position: relative;
+    border-radius: 40px 40px 0 0;
+    background-color: $bg-alt;
+    margin-top: -50px;
+
+    &__header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &--subtitle {
+        padding-bottom: 10px;
+        position: relative;
+   
+        &::after {
+            content: '';
+            background: $tertiary-color;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            width: 9%;
+        }
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+        gap:12px;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        &--content {
+            padding: 15px;
+        }
+
+        &--content {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            &--flex {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    }
+    
+    &__cta {
+    padding: 16px 49px;
+    width: fit-content;
+    margin: auto;
+
+    }
+
+    &__items { overflow: hidden;}
+
+    &__items {
+        li {
+            opacity: 0;
+            transform: translateY(100%);
+            animation: fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            
+            @for $i from 1 through 3 {
+                &:nth-child(#{$i}) {
+                    animation-delay: 0.4s * $i;
+                }
+            }
+        }
+    }
+    
+    @keyframes fadeInUp {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
 }
