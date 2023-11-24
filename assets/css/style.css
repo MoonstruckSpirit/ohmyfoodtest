@@ -561,7 +561,7 @@ a, a:visited, a:hover, a:active {
   animation: spin 2s linear infinite, fadeOutLoader 1s 3s forwards;
 }
 
-.header, .footer, main {
+.loader-enabled {
   opacity: 0;
   animation: fadeInContent 1s forwards 4s;
 }

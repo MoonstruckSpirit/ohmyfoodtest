@@ -18,7 +18,7 @@
   }
 
 // Fade In Content
-.header, .footer, main {
+.loader-enabled {
   opacity: 0;
   animation: fadeInContent 1s forwards 4s;
 }
