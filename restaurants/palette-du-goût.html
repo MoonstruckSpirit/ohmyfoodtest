@@ -4,22 +4,102 @@
 
 <body>
     <header class="header">
-        <img class="header__logo" href="../assets/images/logo/ohmyfood@2x.svg">
+        <img class="header__logo" src="../assets/images/logo/ohmyfood@2x.svg" alt="Logo du site Ohmyfood">
     </header>
     <main>
         <section class="hero">
             <img class="hero__img" src="../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg">
         </section>
-        <section class="menu">
-            <article class="menu__starter">
-
-            </article>
-            <article class="menu__maincourse">
-
-            </article>
-            <article class="menu__dessert">
-
-            </article>
+        <section class="menu">            
+            <div>
+            <h1 class="menu--title">La Palette Du Goût</h1>
+            <div class="menu__like">
+                <input type="checkbox" id="likeCheckbox#1" class="likeCheckbox">
+                <label for="likeCheckbox#1" class=likeContainer>
+                    <i class="fa-regular fa-heart heart-icon card__content--heart"></i>
+                    <i class="fa-solid fa-heart heart-icon-solid card__content--heart--filled"></i>
+                </label>
+            </div>
+            </div>
+            <div class="menu__starter">
+            <h2 class="menu__starter--title">Entrées</h2>
+            <ul class="starter_items">
+                <li>
+                    <article class="card--isWhite">
+                        <h3 class="starter__items--title">Placeholder Dish Name</h3>
+                        <p class="starter__items--subtitle">Placeholder Subtitle</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card--isWhite">
+                        <h3 class="starter__items--title">Placeholder Dish Name</h3>
+                        <p class="starter__items--subtitle">Placeholder Subtitle</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card--isWhite">
+                        <h3 class="starter__items--title">Placeholder Dish Name</h3>
+                        <p class="starter__items--subtitle">Placeholder Subtitle</p>
+                    </article>
+                </li>
+            </ul>
+            </div>
+            <div class="menu__main">
+            <h2 class="menu__starter--title">Plats</h2>
+            <ul class="main__items">
+                <li>
+                    <article class="card--isWhite">
+                        <h3 class="main__items--title">Placeholder Dish Name</h3>
+                        <p class="main__items--subtitle">Placeholder Subtitle</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card--isWhite">
+                        <h3 class="main__items--title">Placeholder Dish Name</h3>
+                        <p class="main__items--subtitle">Placeholder Subtitle</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card--isWhite">
+                        <h3 class="main__items--title">Placeholder Dish Name</h3>
+                        <p class="main__items--subtitle">Placeholder Subtitle</p>
+                    </article>
+                </li>
+            </ul>
+            </div>
+            <div class="menu__dessert">
+            <h2 class="menu__starter--title">Desserts</h2>
+               <ul class="dessert__items">
+                <li>
+                    <article class="card--isWhite">
+                        <h3 class="dessert__items--title">Placeholder Dish Name</h3>
+                        <p class="dessert__items--subtitle">Placeholder Subtitle</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card--isWhite">
+                        <h3 class="dessert__items--title">Placeholder Dish Name</h3>
+                        <p class="dessert__items--subtitle">Placeholder Subtitle</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card--isWhite">
+                        <h3 class="dessert__items--title">Placeholder Dish Name</h3>
+                        <p class="dessert__items--subtitle">Placeholder Subtitle</p>
+                    </article>
+                </li>
+               </ul>
+            </div>
+            <button class="btn menu__cta">
         </section>
     </main>
+    <footer class="footer">
+        <h2 class="footer__logo">Ohmyfood</h2>
+                <ul class="footer__nav">
+                    <li class="footer__nav--bold"><i class="fa-solid fa-utensils"></i><a href="">Proposer un restaurant</a></li>
+                    <li class="footer__nav--bold"><i class="fa-solid fa-handshake-angle"></i><a href="">Devenir partenaire</a></li>
+                    <li><a href="">Mentions légales</a></li>
+                    <li><a href="mailto:reciepient@gmail.com">Contact</a></li>
+                </ul>
+    </footer>
 </body>
