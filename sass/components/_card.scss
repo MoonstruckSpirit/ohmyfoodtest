@@ -1,12 +1,12 @@
 .card {
     border-radius: 20px;
-    background-color: $bg-alt; 
+    background-color: white; 
     
     @include drop-shadow;
 
-    &--isWhite {
+    &--isGrey {
         @extend .card;
-        background-color: white;
+        background-color: $bg-alt;
     }
 
     &--isDish {

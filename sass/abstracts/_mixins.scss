@@ -35,3 +35,25 @@
 @mixin hover-gradient {
     background: linear-gradient(0deg, lighten($primary-color, 5%) 0%, lighten($secondary-color, 5%) 100%);
 }
+
+@mixin appearAnim($delay) {
+
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: fadeInUp 0.5s cubic-bezier(.47,1.64,.41,.8) forwards;
+
+
+    @for $i from 1 through 3 {
+        &:nth-child(#{$i}) {
+            animation-delay: $delay + 0.1s * $i;
+        }
+    }
+
+    @keyframes fadeInUp {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}

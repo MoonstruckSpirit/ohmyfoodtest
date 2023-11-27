@@ -35,23 +35,23 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-.menu--title {
+.menu__title {
     font-family: $font_family_shrikhand;
 }
 
-.menu__items--title {
+.dish__title {
     font-family: $font_family_roboto;
     font-weight: 500;
     font-size: 18px
 }
 
-.menu__items--subtitle {
+.dish__subtitle {
     font-family: $font_family_roboto;
     font-size: 15px;
     font-weight: 300;
 }
 
-.menu__items--price {
+.dish__price {
     font-family: $font_family_roboto;
     font-size: 15px;
     font-weight: 700;
