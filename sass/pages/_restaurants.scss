@@ -79,11 +79,15 @@
 
 .items {
     &__dish {
+
         display: flex;
         flex-direction: row;
         align-items: flex-end;
         justify-content: space-between;
         padding: 15px;
+        overflow: hidden;
+
+        
 
         &--isColumn {
             display: flex;
@@ -91,6 +95,30 @@
         }
     }
 }
+
+.dish {
+    &__addtocart {
+        height: 100%;
+        background-color: #99e2d0;
+        width: 4em;
+        margin-right: -4em;
+        margin-left: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: hidden;
+        transition-duration: 1500ms;
+    }
+
+    .items__dish:hover &__addtocart {
+        margin-right: 0em;
+        visibility: visible;
+
+    }
+}
+
+
+
 
 @for $i from 0 through 2 {
     .#{nth(('starter', 'main', 'dessert'), $i + 1)} > li {
