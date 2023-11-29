@@ -519,7 +519,7 @@ a, a:visited, a:hover, a:active {
   -webkit-text-fill-color: transparent;
 }
 
-.like__input-1 {
+.like__input {
   display: none;
 }
 .like__checkbox:not(:checked) + .like__container .heart-icon:hover {
