@@ -617,12 +617,12 @@ a, a:visited, a:hover, a:active {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  animation: spin 2s linear infinite, fadeOutLoader 0.1s 3s forwards;
+  animation: spin 2s linear infinite, fadeOutLoader 0.2s 1.9s forwards;
 }
 
 .loader-enabled {
   opacity: 0;
-  animation: fadeInContent 1s forwards 2.5s;
+  animation: fadeInContent 1s forwards 2s;
 }
 
 @keyframes spin {
