@@ -2,6 +2,11 @@
     &__img {
         width: 100%;
         object-fit: cover;
+
+
+        @media (min-width: $max-width) {
+            height: 390px;
+        }
     }
 }
 
@@ -15,11 +20,22 @@
     background-color: $bg-alt;
     margin-top: -50px;
 
+    @media (min-width: $max-width) {
+        margin: -50px 192px 0 193px;
+        padding: 50px 120px;
+        gap: 40px;
+    }
+
     &__header {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+
+        @media (min-width: $max-width) {
+            justify-content: center;
+            gap: 27px;
+        }
     }
 
     &__subtitle {
@@ -34,6 +50,10 @@
             left: 0;
             height: 3px;
             width: 9%;
+
+            @media (min-width: $max-width) {
+                width: 4%;
+            }
         }
     }
 
