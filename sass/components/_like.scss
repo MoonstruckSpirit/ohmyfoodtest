@@ -46,34 +46,6 @@
     30%, 80% { transform: scale(0.82, 0.85); }
   }
 
-  
-  // #likeCheckbox {
-  //   display: none;
-  // }
-  
-  // .likeCheckbox {
-  //   &:checked + .likeContainer {
-  //     .heart-icon-solid {
-  //       animation: like 0.7s cubic-bezier(.87, .01, .38, 1.01) forwards;
-  //     }
-  
-  //     .heart-icon {
-  //       animation: like--BG 1s ease forwards;
-  //     }
-  //   }
-  
-  //   &:not(:checked) + .likeContainer {
-  //     .heart-icon-solid {
-  //       animation: unlike 0.5s ease forwards;
-  //     }
-  
-  //     .heart-icon {
-  //       animation: nounlike 1s ease forwards;
-  //     }
-  //   }
-  // }
-  
-
   @keyframes like {
     0% {
       opacity: 0;
@@ -109,13 +81,6 @@
     to {
       opacity: 0;
       transform: scale(0);
-    }
-  }
-  
-  @keyframes unlike--BG {
-    to {
-      opacity: 1;
-      transform: scale(1);
     }
   }
   

@@ -578,12 +578,6 @@ a, a:visited, a:hover, a:active {
     transform: scale(0);
   }
 }
-@keyframes unlike--BG {
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
 .loader {
   position: fixed;
   display: flex;
