@@ -2,7 +2,7 @@
     &__img {
         width: 100%;
         object-fit: cover;
-
+        height: 40vh;
 
         @media (min-width: $max-width) {
             height: 390px;
@@ -23,6 +23,12 @@
     @media (min-width: $max-width) {
         margin: -50px 192px 0 193px;
         padding: 50px 210px;
+        gap: 40px;
+    }
+
+    @media (min-width: $tablet-max) {
+        margin: -50px 20px 0 20px;
+        padding: 50px 50px;
         gap: 40px;
     }
 
@@ -119,12 +125,10 @@
         width: 5em;
         margin-right: -5em;
 
-
-        padding: 0 0 0 0; 
         border-radius: 0 15px 15px 0;
 
         // visibility: hidden;
-        transition: 1000ms ease;
+        transition: 700ms ease;
 
         &__ico {
             color: white;

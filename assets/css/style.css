@@ -358,6 +358,7 @@ a, a:visited, a:hover, a:active {
 .hero__img {
   width: 100%;
   object-fit: cover;
+  height: 40vh;
 }
 @media (min-width: 1440px) {
   .hero__img {
@@ -379,6 +380,13 @@ a, a:visited, a:hover, a:active {
   .menu {
     margin: -50px 192px 0 193px;
     padding: 50px 210px;
+    gap: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .menu {
+    margin: -50px 20px 0 20px;
+    padding: 50px 50px;
     gap: 40px;
   }
 }
@@ -455,9 +463,8 @@ a, a:visited, a:hover, a:active {
   height: 100%;
   width: 5em;
   margin-right: -5em;
-  padding: 0 0 0 0;
   border-radius: 0 15px 15px 0;
-  transition: 1000ms ease;
+  transition: 700ms ease;
 }
 .dish__addtocart__ico {
   color: white;
