@@ -266,6 +266,14 @@ a, a:visited, a:hover, a:active {
 .how-it-works__cards--card--icon--purple {
   color: #9456DC;
 }
+@media (min-width: 768px) {
+  .how-it-works {
+    padding: 48px 180px 68px 180px;
+  }
+  .how-it-works__title {
+    text-align: center;
+  }
+}
 @media (min-width: 1440px) {
   .how-it-works {
     padding: 48px 180px 68px 180px;
@@ -458,6 +466,10 @@ a, a:visited, a:hover, a:active {
   margin-right: 0em;
   visibility: visible;
 }
+.items__dish:active .dish__addtocart {
+  margin-right: 0em;
+  visibility: visible;
+}
 .dish__price {
   padding: 0 15px 15px 0;
 }
@@ -476,6 +488,9 @@ a, a:visited, a:hover, a:active {
 }
 .starter > li:nth-child(3) {
   animation-delay: 0.6s;
+}
+.starter > li:nth-child(4) {
+  animation-delay: 0.8s;
 }
 @keyframes fadeInUp {
   to {
@@ -499,6 +514,9 @@ a, a:visited, a:hover, a:active {
 .main > li:nth-child(3) {
   animation-delay: 1.3s;
 }
+.main > li:nth-child(4) {
+  animation-delay: 1.5s;
+}
 @keyframes fadeInUp {
   to {
     opacity: 1;
@@ -520,6 +538,9 @@ a, a:visited, a:hover, a:active {
 }
 .dessert > li:nth-child(3) {
   animation-delay: 2s;
+}
+.dessert > li:nth-child(4) {
+  animation-delay: 2.2s;
 }
 @keyframes fadeInUp {
   to {

@@ -137,6 +137,12 @@
 
     }
 
+    .items__dish:active &__addtocart {
+        margin-right: 0em;
+        visibility: visible;
+
+    }
+
     &__price {
         padding: 0 15px 15px 0;
     }

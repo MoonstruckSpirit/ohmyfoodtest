@@ -44,7 +44,7 @@
     animation: fadeInUp .7s cubic-bezier(.47,1.64,.41,.8) forwards;
 
 
-    @for $i from 1 through 3 {
+    @for $i from 1 through 4 {
         &:nth-child(#{$i}) {
             animation-delay: $delay + 0.2s * $i;
         }
