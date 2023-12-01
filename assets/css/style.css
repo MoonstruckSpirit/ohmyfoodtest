@@ -457,13 +457,14 @@ a, a:visited, a:hover, a:active {
   align-items: center;
   background-color: #99E2D0;
   height: 100%;
-  width: 5em;
-  margin-right: -5em;
+  width: 4em;
+  margin-right: -4em;
   border-radius: 0 15px 15px 0;
   transition: 700ms ease;
 }
 .dish__addtocart__ico {
   color: white;
+  font-size: 25px;
 }
 .items__dish:hover .dish__addtocart {
   margin-right: 0em;
