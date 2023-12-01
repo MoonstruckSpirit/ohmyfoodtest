@@ -379,14 +379,13 @@ a, a:visited, a:hover, a:active {
 @media (min-width: 1440px) {
   .menu {
     margin: -50px 192px 0 193px;
-    padding: 50px 210px;
     gap: 40px;
   }
 }
 @media (min-width: 1024px) {
   .menu {
     margin: -50px 192px 0 193px;
-    padding: 50px 50px;
+    padding: 50px 210px;
     gap: 40px;
   }
 }

@@ -22,13 +22,12 @@
 
     @media (min-width: $max-width) {
         margin: -50px 192px 0 193px;
-        padding: 50px 210px;
         gap: 40px;
     }
 
     @media (min-width: $tablet-max) {
         margin: -50px 192px 0 193px;
-        padding: 50px 50px;
+        padding: 50px 210px;
         gap: 40px;
     }
 
