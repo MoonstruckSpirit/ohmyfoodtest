@@ -111,20 +111,14 @@
     &__addtocart {
 
         display: flex;
-
         justify-content: center;
         align-items: center;
-
-
-        background-color: #99e2d0;
+        background-color: $tertiary-color;
 
         height: 100%;
         width: 5em;
         margin-right: -5em;
-
         border-radius: 0 15px 15px 0;
-
-        // visibility: hidden;
         transition: 700ms ease;
 
         &__ico {
@@ -134,15 +128,15 @@
 
     .items__dish:hover &__addtocart {
         margin-right: 0em;
-        visibility: visible;
+
 
     }
 
-    .items__dish:active &__addtocart {
-        margin-right: 0em;
-        visibility: visible;
+    // .items__dish:active &__addtocart {
+    //     margin-right: 0em;
 
-    }
+
+    // }
 
     &__price {
         padding: 0 15px 15px 0;
