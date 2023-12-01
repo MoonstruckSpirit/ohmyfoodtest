@@ -83,6 +83,7 @@
 .items {
     &__dish {
 
+        overflow: hidden;
         height: 69px;
         display: flex;
         flex-direction: row;
@@ -109,6 +110,7 @@
         text-overflow: ellipsis;
     }
     &__addtocart {
+
 
         display: flex;
         justify-content: center;
@@ -142,9 +144,6 @@
         padding: 0 15px 15px 0;
     }
 }
-
-
-
 
 @for $i from 0 through 2 {
     .#{nth(('starter', 'main', 'dessert'), $i + 1)} > li {

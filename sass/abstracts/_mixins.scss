@@ -37,8 +37,7 @@
 }
 
 @mixin appearAnim($delay) {
-
-    overflow: hidden;
+    
     opacity: 0;
     transform: translateY(100%);
     animation: fadeInUp .7s cubic-bezier(.47,1.64,.41,.8) forwards;

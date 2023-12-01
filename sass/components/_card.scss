@@ -4,13 +4,13 @@
     
     @include drop-shadow;
 
-    &--isGrey {
-        @extend .card;
+    --isGrey {
+
         background-color: $bg-alt;
     }
 
-    &--isDish {
-        @extend .card;
+    --isDish {
+
         border-radius: 15px;
         @include drop-shadow-dish
     }

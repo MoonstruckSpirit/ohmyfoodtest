@@ -34,10 +34,10 @@
         .heart-icon { animation: like--BG 1s ease forwards; }
       }
       
-      // &:not(:checked) + .like__container { 
-      //   .heart-icon-solid { animation: unlike 0.5s ease forwards; }
-      //   .heart-icon { animation: nounlike 1s ease forwards; }
-      // }
+      &:not(:checked) + .like__container { 
+        .heart-icon-solid { animation: unlike 0.5s ease forwards; }
+        .heart-icon { animation: nounlike 1s ease forwards; }
+      }
     }
   }
 
