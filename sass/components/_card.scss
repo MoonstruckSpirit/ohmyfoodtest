@@ -4,12 +4,12 @@
     
     @include drop-shadow;
 
-    &__isGrey {
+    &--isGrey {
 
         background-color: $bg-alt;
     }
 
-    &__isDish {
+    &--isDish {
 
         border-radius: 15px;
         @include drop-shadow-dish
