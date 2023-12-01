@@ -266,7 +266,7 @@ a, a:visited, a:hover, a:active {
 .how-it-works__cards--card--icon--purple {
   color: #9456DC;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .how-it-works {
     padding: 48px 180px 68px 180px;
   }
@@ -383,7 +383,7 @@ a, a:visited, a:hover, a:active {
     gap: 40px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .menu {
     margin: -50px 192px 0 193px;
     padding: 50px 50px;
@@ -404,6 +404,7 @@ a, a:visited, a:hover, a:active {
 .menu__subtitle {
   padding-bottom: 12px;
   position: relative;
+  width: min-content;
 }
 .menu__subtitle::after {
   content: "";
@@ -412,12 +413,7 @@ a, a:visited, a:hover, a:active {
   bottom: 0;
   left: 0;
   height: 3px;
-  width: 9%;
-}
-@media (min-width: 1440px) {
-  .menu__subtitle::after {
-    width: 4%;
-  }
+  width: 70%;
 }
 .menu__body {
   display: flex;
