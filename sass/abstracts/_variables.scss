@@ -3,14 +3,15 @@
 $primary-color          : #9456DC;
 $secondary-color        : #FF79DA;
 $tertiary-color         : #99E2D0;
-$quaternary-color       : #008766;
-$quinary-color          : #003A68;
-$senary-color           : #EAEAEA;
+
+$btn-new                : #008766;
 
 $primary-icon-color     : #353535;
 $secondary-icon-color   : #7E7E7E;
 
+$header-alt             : #EAEAEA;
 $bg-alt                 : #F6F6F6; 
+
 
 
 // Fonts
@@ -36,8 +37,8 @@ $font-weight-light   : 300;
 
 // Sizes 
 
-$desktop-min         : 1025px;
-$tablet-max          : 1024px;
+$desktop-min         : 1024px;
+$tablet-min          : 600px;
 $mobile-min          : 320px;
 $max-width           : 1440px;
 $min-width           : 320px;
